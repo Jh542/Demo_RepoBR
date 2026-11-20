@@ -1,0 +1,31 @@
+# Variables de entorno y credenciales
+.env
+.env.*
+*.pem
+*.key
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+
+# Entornos virtuales y caché
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Reportes y artefactos de pruebas
+.pytest_cache/
+htmlcov/
+.coverage
+allure-results/
+allure-report/
+test-results/
+playwright-report/
